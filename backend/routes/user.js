@@ -37,47 +37,6 @@ const userSchema = mongoose.Schema({
     default: "",
   },
 
-  grade: {
-    type: String,
-    default: "",
-  },
-
-  pool: {
-    type: String,
-    default: "",
-  },
-
-  gender: {
-    type: String,
-    default: "",
-  },
-
-  schoolName: {
-    type: String,
-    default: "",
-  },
-
-  schoolCity: {
-    type: String,
-    default: "",
-  },
-
-  schoolAddress: {
-    type: String,
-    default: "",
-  },
-
-  parentName: {
-    type: String,
-    default: "",
-  },
-  ispayment:{
-    type:Boolean,
-    default:false
-  },
-  isupdateprofile:{
-    type : Boolean ,default : false  
-  },
   token:{
     type: String,
     default: ''
